@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Étudiant Développeur Full-Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styleport1.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">Feusse . Abigael</span>
+    <ul class="nav-links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-left">
+      <p class="hero-eyebrow">Étudiant BTS · Ouvert aux stages & alternances</p>
+      <h1 class="hero-name">Feusse<br><em>Tchouateu</em><br>Abigael</h1>
+      <p class="hero-desc">Étudiant en BTS informatique, je conçois des applications web full-stack avec React et Laravel. Curieux, autonome, j'apprends vite et j'aime construire des choses qui fonctionnent vraiment.</p>
+      <a href="#projects" class="hero-cta">Voir mes projets <span class="arrow">→</span></a>
+    </div>
+    <div class="hero-right">
+      <div class="hero-stat-list">
+        <div class="hero-stat">
+          <div class="num">Bac+2</div>
+          <div class="label">BTS en cours</div>
+        </div>
+        <div class="hero-rule"></div>
+        <div class="hero-stat">
+          <div class="num">20+</div>
+          <div class="label">Projets réalisés</div>
+        </div>
+        <div class="hero-rule"></div>
+        <div class="hero-stat">
+          <div class="num">12</div>
+          <div class="label">Stacks maîtrisées</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">01 - À propos</span>
+        <div class="section-rule"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>Étudiant en deuxième année Génie logiciel, je me spécialise dans le développement web full-stack. Je construis des applications de A à Z, de la base de données à l'interface utilisateur.</p>
+          <p>Côté frontend, je travaille avec React et Next.js pour créer des interfaces réactives et accessibles. Côté backend, j'utilise Laravel et PHP pour concevoir des APIs robustes et des architectures claires. MySQL et Git font partie de mon quotidien.</p>
+          <p>En dehors des cours, je réalise des projets personnels pour consolider mes apprentissages, je lis des articles techniques, et je cherche à mettre en pratique ce que j'apprends sur des cas concrets.</p>
+          <a href="#" class="cv-link">↓ Télécharger mon CV (PDF)</a>
+        </div>
+        <aside class="about-aside reveal">
+          <img src="mairie-douala.jpg" width="170px" height="170px" alt="Feusse Abigael"> </img>
+          <dl>
+            <dt>Localisation</dt>
+            <dd>Douala - Disponible en présentiel ou remote</dd>
+            <dt>Formation</dt>
+            <dd>BTS Informatique - En cours (Bac+2)</dd>
+            <dt>Recherche</dt>
+            <dd>Stage ou alternance · Développeur Full-Stack . </dd>
+            <dt>Langues</dt>
+            <dd>Français (natif) · Anglais (intermédiaire)</dd>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">02 - Projets</span>
+        <div class="section-rule"></div>
+        <h2 class="section-title"><em>Travaux</em> récents</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <p class="project-tag">Projet de Master · 2025</p>
+          <h3 class="project-name">Plateforme de gestion d'événements</h3>
+          <p class="project-desc">Application web complète permettant de créer, gérer et s'inscrire à des événements. Authentification, rôles utilisateurs et tableau de bord admin inclus.</p>
+          <div class="project-stack">
+            <span class="tag">Laravel</span><span class="tag">React</span><span class="tag">MySQL</span><span class="tag">Tailwind</span>
+          </div>
+          <a href="#" class="project-link">Voir sur GitHub →</a>
+        </article>
+        <article class="project-card reveal">
+          <p class="project-tag">Projet personnel · 2024</p>
+          <h3 class="project-name">Application de suivi de budget</h3>
+          <p class="project-desc">Outil personnel pour suivre ses dépenses et revenus mensuels, avec visualisation graphique et catégorisation automatique des transactions.</p>
+          <div class="project-stack">
+            <span class="tag">Next.js</span><span class="tag">Laravel API</span><span class="tag">Chart.js</span>
+          </div>
+          <a href="#" class="project-link">Voir sur GitHub →</a>
+        </article>
+        <article class="project-card reveal">
+          <p class="project-tag">Projet universitaire · 2024</p>
+          <h3 class="project-name">Clone de réseau social</h3>
+          <p class="project-desc">Réalisation d'un mini réseau social avec fil d'actualité, système de follow, likes et messagerie privée en temps réel.</p>
+          <div class="project-stack">
+            <span class="tag">React</span><span class="tag">Laravel</span><span class="tag">WebSockets</span>
+          </div>
+          <a href="#" class="project-link">Voir sur GitHub →</a>
+        </article>
+        <article class="project-card reveal">
+          <p class="project-tag">Projet universitaire · 2024</p>
+          <h3 class="project-name">API REST de gestion de bibliothèque</h3>
+          <p class="project-desc">Conception et développement d'une API complète : gestion des livres, emprunts, utilisateurs et authentification JWT.</p>
+          <div class="project-stack">
+            <span class="tag">Laravel</span><span class="tag">MySQL</span><span class="tag">JWT</span><span class="tag">Postman</span>
+          </div>
+          <a href="#" class="project-link">Voir sur GitHub →</a>
+        </article>
+        <article class="project-card reveal">
+          <p class="project-tag">Projet personnel · 2023</p>
+          <h3 class="project-name">Portfolio v1</h3>
+          <p class="project-desc">Première version de mon portfolio réalisée en HTML/CSS/JS vanilla. Point de départ de mon apprentissage du développement front-end.</p>
+          <div class="project-stack">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          </div>
+          <a href="#" class="project-link">Voir sur GitHub →</a>
+        </article>
+        <article class="project-card reveal">
+          <p class="project-tag">Projet universitaire · 2023</p>
+          <h3 class="project-name">Site e-commerce (Licence)</h3>
+          <p class="project-desc">Projet de fin de Licence : boutique en ligne avec panier, paiement simulé et interface d'administration des produits.</p>
+          <div class="project-stack">
+            <span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">Bootstrap</span>
+          </div>
+          <a href="#" class="project-link">Voir sur GitHub →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">03 - Compétences</span>
+        <div class="section-rule"></div>
+        <h2 class="section-title"><em>Stack</em> technique</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Langages</h3>
+          <ul class="skill-list">
+            <li><span class="skill-dot"></span>JavaScript / TypeScript</li>
+            <li><span class="skill-dot"></span>PHP</li>
+            <li><span class="skill-dot"></span>HTML · CSS</li>
+            <li><span class="skill-dot"></span>SQL</li>
+            <li><span class="skill-dot"></span>Python (notions)</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Frontend</h3>
+          <ul class="skill-list">
+            <li><span class="skill-dot"></span>React · Next.js</li>
+            <li><span class="skill-dot"></span>Tailwind CSS</li>
+            <li><span class="skill-dot"></span>Vite · Webpack</li>
+            <li><span class="skill-dot"></span>Axios · Fetch API</li>
+            <li><span class="skill-dot"></span>Responsive Design</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Backend</h3>
+          <ul class="skill-list">
+            <li><span class="skill-dot"></span>Laravel · PHP</li>
+            <li><span class="skill-dot"></span>API REST · JWT</li>
+            <li><span class="skill-dot"></span>MySQL · SQLite</li>
+            <li><span class="skill-dot"></span>Eloquent ORM</li>
+            <li><span class="skill-dot"></span>WebSockets (Pusher)</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="skill-group-title">Outils</h3>
+          <ul class="skill-list">
+            <li><span class="skill-dot"></span>Git · GitHub</li>
+            <li><span class="skill-dot"></span>Docker (initiation)</li>
+            <li><span class="skill-dot"></span>Postman · Insomnia</li>
+            <li><span class="skill-dot"></span>VS Code · PhpStorm</li>
+            <li><span class="skill-dot"></span>Figma (lecture)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">04 - Blog</span>
+        <div class="section-rule"></div>
+        <h2 class="section-title">Notes & <em>réflexions</em></h2>
+      </div>
+      <div class="blog-list">
+        <a href="#" class="blog-item reveal">
+          <span class="blog-date">Mai 2025</span>
+          <span class="blog-title">Comment j'ai structuré mon premier projet Laravel de A à Z</span>
+          <span class="blog-arrow">→</span>
+        </a>
+        <a href="#" class="blog-item reveal">
+          <span class="blog-date">Mar 2025</span>
+          <span class="blog-title">React vs Next.js : ce que j'ai compris après plusieurs projets</span>
+          <span class="blog-arrow">→</span>
+        </a>
+        <a href="#" class="blog-item reveal">
+          <span class="blog-date">Jan 2025</span>
+          <span class="blog-title">Mes erreurs de débutant avec Git (et comment les éviter)</span>
+          <span class="blog-arrow">→</span>
+        </a>
+        <a href="#" class="blog-item reveal">
+          <span class="blog-date">Nov 2024</span>
+          <span class="blog-title">Découverte de Tailwind CSS : pourquoi je ne reviens plus en arrière</span>
+          <span class="blog-arrow">→</span>
+        </a>
+        <a href="#" class="blog-item reveal">
+          <span class="blog-date">Sep 2024</span>
+          <span class="blog-title">Construire une API REST avec Laravel : les bases que j'aurais aimé connaître</span>
+          <span class="blog-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-header reveal">
+        <span class="section-tag">05 - Contact</span>
+        <div class="section-rule"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="reveal">
+          <h2 class="contact-headline">Parlons de<br>votre <em>projet</em></h2>
+          <p class="contact-sub">Je suis à la recherche d'un stage ou d'une alternance en développement full-stack. N'hésitez pas à me contacter pour échanger, collaborer sur un projet, ou simplement discuter tech.</p>
+          <div class="contact-links">
+            <a href="mailto:feusse123@gmail.com" class="contact-link">
+              Email <span class="contact-link-rule"></span> feusse123@gmail.com
+            </a>
+            <a href="#" class="contact-link">
+              GitHub <span class="contact-link-rule"></span> github.com/Feusse
+            </a>
+            <a href="#" class="contact-link">
+              LinkedIn <span class="contact-link-rule"></span> linkedin.com/in/Feusse
+            </a>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+          <div class="form-group">
+            <label class="form-label" for="name">Nom</label>
+            <input class="form-input" id="name" type="text" placeholder="Votre Nom" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-input" id="email" type="email" placeholder="Votre email" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="msg">Message</label>
+            <textarea class="form-textarea" id="msg" placeholder="Décrivez votre projet…"></textarea>
+          </div>
+          <button class="form-submit">Envoyer le message →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="f-left">© 2026 - Feusse Tchouateu Abigael · Étudiant développeur full-stack</span>
+    <span class="f-right">Fait avec React & Laravel dans le cœur</span>
+  </footer>
+
+  <script src="scriptport1.js"></script>
+</body>
+</html>
+
